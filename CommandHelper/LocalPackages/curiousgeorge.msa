@@ -1,0 +1,6 @@
+curiousgeorge:/curiousgeorge = >>>
+    sudo(/effect player() 5 9999 2 true)
+	sudo(/effect player() 21 9999 2 true)
+    tmsg(player(),concat(color(brown),
+    'Ooh Ooh, Ah Ah!'))
+<<<

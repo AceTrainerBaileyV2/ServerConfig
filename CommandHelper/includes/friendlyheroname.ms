@@ -277,8 +277,10 @@ proc(_friendlyHeroName, @class,
     }
     else if(@class == 'harleyquinn'){
         @fname = '§4H§fa§0r§4l§fe§0y §4Q§fu§0i§4n§fn'
+	}
+	else if(@class == 'curiousGeorge'){
+        @fname = '§6Curious§eGeorge'
     }
-    
     if(@fname != '')
     {
         return(@fname)
